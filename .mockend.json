@@ -26,10 +26,7 @@
         "hasMany": "Consent"
       }
     }
-    "Comment": {
-      "authorPost": {
-        "belongsTo": "Post"
-      }
+    "Consent": {
+
     }
-    
 }
