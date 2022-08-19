@@ -1,7 +1,6 @@
   
 {
-  "Account":
-  { 
+  "Account": { 
       "Service_Channel_Department__c": { "string": {} },
       "RecordTypeId": { "string": {} },
       "Customer_Type__c": { "string": {} },
@@ -22,6 +21,6 @@
       "Household_Consent_Date__c": { "string": {} },
       "Household_Consent__c": { "string": {} },
       "Company_Consent_Date__c": { "string": {} },
-      "Company_Consent__c": { "string": {} },
+      "Company_Consent__c": { "string": {} }
     }
 }
