@@ -9,7 +9,7 @@
       "City__c": { "string": {} },
       "Postal_Code__c": { "string": {} },
       "Name": { "string": {} },
-      "id": { "int": { "min": 0, "max": 1000000 } },
+      "id": "uuid",
       "Promotion_SMS_Date__c": { "string": {} },
       "Promotion_SMS__c": { "string": {} },
       "Promotion_Phone_Date__c": { "string": {} },
