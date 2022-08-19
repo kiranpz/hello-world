@@ -1,14 +1,27 @@
+  
 {
-  "Post": {
-    "title1": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "Account":
+  { 
+      "Service_Channel_Department__c": { "string": {} },
+      "RecordTypeId": { "string": {} },
+      "Customer_Type__c": { "string": {} },
+      "Street__c": { "string": {} },
+      "Street_Number__c": { "string": {} },
+      "City__c": { "string": {} },
+      "Postal_Code__c": { "string": {} },
+      "Name": { "string": {} },
+      "Id": { "string": {} },
+      "Promotion_SMS_Date__c": { "string": {} },
+      "Promotion_SMS__c": { "string": {} },
+      "Promotion_Phone_Date__c": { "string": {} },
+      "Promotion_Phone__c": { "string": {} },
+      "Promotion_Letter_Date__c": { "string": {} },
+      "Promotion_Letter__c": { "string": {} },
+      "Promotion_Email_Date__c": { "string": {} },
+      "Promotion_Email__c": { "string": {} },
+      "Household_Consent_Date__c": { "string": {} },
+      "Household_Consent__c": { "string": {} },
+      "Company_Consent_Date__c": { "string": {} },
+      "Company_Consent__c": { "string": {} },
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
 }
