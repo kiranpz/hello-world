@@ -21,6 +21,15 @@
       "Household_Consent_Date__c": { "string": {} },
       "Household_Consent__c": { "string": {} },
       "Company_Consent_Date__c": { "string": {} },
-      "Company_Consent__c": { "string": {} }
+      "Company_Consent__c": { "string": {} },
+      "consents": {
+        "hasMany": "Consent"
+      }
     }
+    "Comment": {
+      "authorPost": {
+        "belongsTo": "Post"
+      }
+    }
+    
 }
