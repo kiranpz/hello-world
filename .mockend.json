@@ -25,7 +25,7 @@
       "consents": {
         "hasMany": "Consent"
       }
-    }
+    },
     "Consent": {
 
     }
